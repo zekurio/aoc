@@ -1,0 +1,21 @@
+{
+  "name": "aoc",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "aoc": "bun run index.ts",
+    "download": "bun run index.ts download",
+    "run": "bun run index.ts run",
+    "new": "bun run index.ts new",
+    "run-all": "bun run index.ts run-all",
+    "build": "bun build index.ts --compile --outfile aoc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
